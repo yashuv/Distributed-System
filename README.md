@@ -1,6 +1,6 @@
 # Distributed-System
 
-I tried to give some insights and provide the simulated code for the Election Algorithm (Bully and Ring), RPC and RMI, and Clock Synchronization using Lamport logical timestamp and Vector timestamp.
+I tried to give some insights and provide the simulated code for the Election Algorithm (Bully and Ring), RPC and RMI, Clock Synchronization using Lamport logical timestamp and Vector timestamp, and Banker's Deadlock Avoidance Algorithm.
 <br><br>
 ------------------------------------- <b>  Clock Synchronization In Distributed System </b>---------------------------------------------------------- <br>
   🔶<b> Using Lamport’s Algorithm </b><br><br>

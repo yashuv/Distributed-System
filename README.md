@@ -37,7 +37,9 @@ message the process on its right only. <br><br>
   ![444](https://user-images.githubusercontent.com/66567559/178669266-d7be0e4d-087c-49a6-ad47-405ba86ebe42.jpg)
   <br><br>
 ------------------------------------------------------------------------------------------------------------------------------<br>
-  
-  Thank You...
+🔶<b> Bankers Algorithm </b> <br><br>
+ A new deadlock avoidance algorithm, derived from Dijkstra’s Bankers Algorithm, is introduced for avoiding deadlock and allocate resources safely to each process in a distributed SOA. The algorithm works by observing the current state of the resources in the system along with a worst case estimate of future resource requirements and permitting the execution of only those call trees that will keep the system in a safe state.<br>
+------------------------------------------------------------------------------------------------------------------------------<br>
+  Thank You.. HappY Learning!
   
   

@@ -2,7 +2,7 @@
 
 I tried to give some insights and provide the simulated code for the Election Algorithm (Bully and Ring), RPC and RMI, Clock Synchronization using Lamport logical timestamp and Vector timestamp, and Banker's Deadlock Avoidance Algorithm.
 <br><br>
-------------------------------------- <b>  Clock Synchronization In Distributed System </b>---------------------------------------------------------- <br>
+------------------------------------- <b>  Clock Synchronization In Distributed System </b>---------------------------------------------- <br>
   🔶<b> Using Lamport’s Algorithm </b><br><br>
   ![image](https://user-images.githubusercontent.com/66567559/178660323-a7f54e82-a30e-41ff-9d28-08e89d60dfe6.png)
 <br><br>
@@ -15,8 +15,9 @@ I tried to give some insights and provide the simulated code for the Election Al
  Program Output:<br>
  ![image](https://user-images.githubusercontent.com/66567559/178661419-06cec436-2567-42cd-a546-4397011f03d9.png)
 <br>
-
----------------------------------------- <b> Leader Election in Distributed System </b>---------------------------------------------------------- <br>
+<a href="https://github.com/yashuv/Distributed-System/tree/main/Clock%20Synchronization%20using%20Lamport%20Logical%20and%20Vector%20Timestamp">More here</a>
+<br>
+---------------------------------------- <b> Leader Election in Distributed System </b>-------------------------------------------------- <br>
 The main purpose of the leader election is to choose a node as a coordinator. It will act as a leader and coordinate activities of the whole system.The election algorithm assumes that every active process in the system has a unique priority number. A leader in any leader election algorithm is usually chosen based on the node which has the largest identifier. Hence, when a coordinator fails, this algorithm elects the active process that has the highest priority number. Then this number is sent to every active process in the distributed system.<br><br>
   🔶<b> Bully Algorithm </b><br><br>
   In a distributed system, when the leader is crashed, other nodes must elect another leader. The election algorithm we consider here is called the bully algorithm because the node with the highest ID forces the nodes with smaller ID into accepting it as a coordinator.<br><vr>
@@ -36,9 +37,12 @@ message the process on its right only. <br><br>
   Simulated Program Output<br>
   ![444](https://user-images.githubusercontent.com/66567559/178669266-d7be0e4d-087c-49a6-ad47-405ba86ebe42.jpg)
   <br><br>
+<a href="https://github.com/yashuv/Distributed-System/tree/main/Election%20Algorithm%20-%20Bully%20and%20Ring">More here</a><br>
 ------------------------------------------------------------------------------------------------------------------------------<br>
 🔶<b> Bankers Algorithm </b> <br><br>
- A new deadlock avoidance algorithm, derived from Dijkstra’s Bankers Algorithm, is introduced for avoiding deadlock and allocate resources safely to each process in a distributed SOA. The algorithm works by observing the current state of the resources in the system along with a worst case estimate of future resource requirements and permitting the execution of only those call trees that will keep the system in a safe state.<br>
+ A new deadlock avoidance algorithm, derived from Dijkstra’s Bankers Algorithm, is introduced for avoiding deadlock and allocate resources safely to each process in a distributed SOA. The algorithm works by observing the current state of the resources in the system along with a worst case estimate of future resource requirements and permitting the execution of only those call trees that will keep the system in a safe state.
+ 
+ <a href="https://github.com/yashuv/Distributed-System/tree/main/Banker%20Algorithm%20Deadlock%20Avoidance">More here</a><br>
 ------------------------------------------------------------------------------------------------------------------------------<br>
   Thank You.. HappY Learning!
   

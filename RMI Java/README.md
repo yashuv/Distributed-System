@@ -8,7 +8,7 @@
   </li>
   <li>
   Run the server program:<br>
-  &nbsp;&nbsp&nbsp;;⚬ java Baskota_Server
+  &nbsp;&nbsp;&nbsp;⚬ java Baskota_Server
   </li>
   <li>
   Run the client program:<br>
